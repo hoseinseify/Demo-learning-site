@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my exercices</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav class="nav">
+        <a href="#"><img src="./images/logo.png"/></a>
+        <div class="nav_link" id="navlink">
+          <span onclick="close_menu()" id="close_menu" class="fa fa-window-close icon"></span>
+          <ul>
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">دوره های آموزشی</a></li>
+            <li><a href="#">مقالات</a></li>
+            <li><a href="#">درباره ما</a></li>
+          </div>
+          <span id="open_menu"  onclick="open_menu()" class="fa fa-navicon icon"></span>
+    </nav>
+    <div class="text_box">
+      <h1>وب سایت آموزش برنامه نویسی</h1>
+      <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+        بلکه روزنامه و مجله در ستون و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی دنیای
+        موجود طراحی اساسا مورد استفاده قرار گیرد.
+    </p>
+      <a href="" class="hero_btn">شروع برنامه نویسی</a>
+    </div>
+  </section>
+
+
+  <!-- ........courses.............. -->
+  <section class="course" >
+    <h1>دوره های آموزشی</h1>
+    <p>در این قسمت شما آخرین دوره های وب سایت را میتوانید مشاهده نمایید</p>
+    <div class="row">
+      <div class="course_col">
+        <h3>جاوااسکریپت</h3>
+        <p>آیا تا به حال برایتان این سوال پیش آمده که جاوا اسکریپت چیست و چه کاربردی دارد و چرا از آن به عنوان یک
+                زبان برنامه‌نویسی استفاده می‌کنیم؟ در این پست سعی به پاسخ این دسته از سوال‌ها داریم.</p>
+      </div>
+      <div class="course_col">
+        <h3>جاوا</h3>
+        <p>جاوا به صورت رایگان در دسترس است و بدون اغراق می‌توان آن‌را جزو کارآمد‌ترین زبان‌های برنامه‌نویسی سطح
+          بالا دانست، در ادامه با همیار آی‌تی همراه باشید تا بیشتر با این زبان دوست‌داشتنی و تاریخچه‌ی آن آشنا
+          شویم.</p> 
+      </div>
+      <div class="course_col">
+        <h3>اچ تی ام ال
+        </h3>
+        <p>اگر کمی با دنیای طراحی وب یا برنامه نویسی وب آشنایی داشته باشید، حتما واژه‌ی اچ تی ام ال به گوشتان خورده
+          است و این سوال برایتان پیش آمده است که اچ تی ام ال چیست .</p>
+      </div>
+    </div>
+  </section>
+  <!-- ........end courses.............. -->
+<!-- res -->
+<section class="res">
+  <h1>دسته بندی منابع</h1>
+  <p>در این قسمت دوره های وب سایت را متناسب با نیازتون انتخاب کنید
+  </p>
+  <div class="row">
+    <div class="res_col">
+      <img src="./images/london.png" alt="">
+      <div class="layer">
+        <h3>طراحی سایت</h3>
+      </div>
+    </div>
+    <div class="res_col">
+      <img src="./images/newyork.png" alt="">
+      <div class="layer">
+        <h3>طراحی سایت</h3>
+      </div>
+    </div>
+    <div class="res_col">
+      <img src="./images/washington.png" alt="">
+      <div class="layer">
+        <h3>طراحی سایت</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end res -->
+<!-- magh -->
+<section class="articles">
+  <h1>مقالات وب سایت</h1>
+  <p>در این بخش جدیدترین مقالات را پیدا کنید</p>
+  <div class="row">
+    <div class="article_col">
+      <img src="./images/cafeteria.png"/>
+      <h3>اچ تی ام ال</h3>
+      <p>اگر کمی با دنیای طراحی وب یا برنامه نویسی وب آشنایی داشته باشید، حتما واژه‌ی اچ تی ام ال به گوشتان خورده
+        است و این سوال برایتان پیش آمده است که اچ تی ام ال چیست .</p>
+    </div>
+    <div class="article_col">
+      <img src="./images/library.png"/>
+      <h3>جاوا</h3>
+      <p>جاوا به صورت رایگان در دسترس است و بدون اغراق می‌توان آن‌را جزو کارآمد‌ترین زبان‌های برنامه‌نویسی سطح
+        بالا دانست، در ادامه با همیار آی‌تی همراه باشید تا بیشتر با این زبان دوست‌داشتنی و تاریخچه‌ی آن آشنا
+        شویم.</p>
+    </div>
+    <div class="article_col">
+      <img src="./images/basketball.png"/>
+      <h3>جاوااسکریپت</h3>
+      <p>آیا تا به حال برایتان این سوال پیش آمده که جاوا اسکریپت چیست و چه کاربردی دارد و چرا از آن به عنوان یک
+        زبان برنامه‌نویسی استفاده می‌کنیم؟ در این پست سعی به پاسخ این دسته از سوال‌ها داریم.</p>
+    </div>
+  </div>
+</section>
+<!-- end magh -->
+<!-- comment -->
+
+<section class="comment">
+  <h1>آشنایی با ما</h1>
+  <p>در این قسمت شما میتوانید با تیم آرتور آشنا شوید</p>
+  <div class="row">
+    <div class="comment_col">
+      <img src="./images/user1.png"/>
+      <div>
+        <p>برنامه نویس و مدیر وب سایت آرتور</p>
+        <h3>رضا کوهساری</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+    </div>
+    <div class="comment_col">
+      <img src="./images/user1.png"/>
+      <div>
+        <p>برنامه نویس و مدیر وب سایت آرتور</p>
+        <h3>رضا کوهساری</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- end comment -->
+
+<!-- banner -->
+<section class="contact_us">
+  <h1>ارتباط با ما</h1>
+  <a class="hero_btn" href="#">ارتباط با ما</a>
+</section>
+<!-- end banner -->
+<section class="footer">
+  <h4>درباره ما</h4>
+  <p>آدرس ما در صفحات مجازی</p>
+  
+  <i class="	fa fa-instagram"></i>
+  <i class="	fa fa-facebook-square"></i>
+  <i class="fa fa-youtube-play"></i>
+  <p>ما را در شبکه های اجتماعی دنبال کنید</p>
+</section>
+<script>
+   var navLinks = document.getElementById("navlink");
+  function close_menu(){
+    navLinks.style.right="-200px";
+    navLinks.style.display="none";
+  }
+  function open_menu(){
+    navLinks.style.right="0px";
+    navLinks.style.display="block";
+    navLinks.style.transition="0.5s";
+  }
+</script>
+</body>
+</html>
